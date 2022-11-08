@@ -71,6 +71,12 @@
                 </ul>
             </nav>
         </div>
+        <div style="display: flex; margin-top: 500px; margin-left: 35px">
+            <img src="https://static.wixstatic.com/media/6ceb9e_5d56c6bb993a4032bb28a3381377d44d~mv2.png/v1/crop/x_22,y_0,w_356,h_168/fill/w_144,h_68,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo_web_02.png">
+        </div>
+        <div style="display: flex">
+            <img src="https://static.wixstatic.com/media/6ceb9e_3fe2cbda0d374733908021ccb9a93cd3~mv2.png/v1/crop/x_0,y_673,w_2251,h_913/fill/w_180,h_68,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/LogosSDET-03.png">
+        </div>
     </aside>
     <div class="page-wrapper">
         <div class="page-breadcrumb">
@@ -102,19 +108,19 @@
                                                     </thead>
                                                     <tbody>
                                                     <tr>
-                                                        <td class="text-nowrap align-middle">Detalhes</td>
-                                                        <td class="text-nowrap align-middle">Fazenda Tal</td>
-                                                        <td class="text-nowrap align-middle">Rua A</td>
+                                                        <td class="text-nowrap align-middle">1</td>
+                                                        <td class="text-nowrap align-middle">Praça Barão de Campo Belo</td>
+                                                        <td class="text-nowrap align-middle">R. Barão de Vassouras-Centro, Vassouras-RJ</td>
                                                         <td class="text-nowrap align-middle">Segunda a Sexta</td>
                                                         <td class="text-nowrap align-middle"><span>07:00 às 17:00</span>
                                                         </td>
                                                         <td class="text-center align-middle">
                                                             <div class="btn-group align-top">
-                                                                <button class="btn btn-sm btn-outline-secondary badge"
+                                                                <button class="btn btn-sm btn-outline-primary"
                                                                         type="button" data-toggle="modal"
                                                                         data-target="#edit-form-modal">Edit
                                                                 </button>
-                                                                <button class="btn btn-sm btn-outline-secondary badge"
+                                                                <button class="btn btn-sm btn-outline-secondary"
                                                                         type="button" data-toggle="modal"
                                                                         data-target="#deletar-form-modal"><i
                                                                         class="fa fa-trash"></i></button>
@@ -150,88 +156,93 @@
                                             <span aria-hidden="true">×</span>
                                         </button>
                                     </div>
-          <div class="modal-body">
-            <div class="py-1">
-              <form class="form" novalidate="">
-                <div class="row">
-                  <div class="col">
-                      <div class="row">
-                      <div class="col">
-                        <div class="form-group">
-                          <label>Nome</label>
-                          <input class="form-control" type="text">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col">
-                        <div class="form-group">
-                          <label>Dia Funcionamento</label>
-                          <input class="form-control" type="text" name="name">
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div class="form-group">
-                          <label>Horário Funcionamento</label>
-                          <input class="form-control" type="text" name="username">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col">
-                        <div class="form-group">
-                          <label>Endereço</label>
-                          <input class="form-control" type="text">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col mb-3">
-                        <div class="form-group">
-                          <label>Descrição</label>
-                          <textarea class="form-control" rows="5"></textarea>
-                        </div>
-                      </div>
-                    </div>
-                   <div class="row">
-                      <div class="col">
-                        <div class="form-group">
-                          <label>Rota</label>
-                          <input class="form-control" type="text">
-                        </div>
-                      </div>
-                    </div>
+                                    <div class="modal-body">
+                                        <div class="py-1">
+                                            <form class="form" novalidate="">
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <div class="row">
+                                                            <div class="col">
+                                                                <div class="form-group">
+                                                                    <label>Nome</label>
+                                                                    <input class="form-control" type="text" value="Praça Barão de Campo Belo">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col">
+                                                                <div class="form-group">
+                                                                    <label>Dia Funcionamento</label>
+                                                                    <input class="form-control" type="text" name="name" value="Segunda à Domingo">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col">
+                                                                <div class="form-group">
+                                                                    <label>Horário Funcionamento</label>
+                                                                    <input class="form-control" type="text"
+                                                                           name="username" value="24H">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col">
+                                                                <div class="form-group">
+                                                                    <label>Endereço</label>
+                                                                    <input class="form-control" type="text" value="R. Barão de Vassouras - Centro, Vassouras - RJ, 27700-000">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col mb-3">
+                                                                <div class="form-group">
+                                                                    <label>Descrição</label>
+                                                                    <textarea class="form-control" rows="5">Batizada com o nome do barão que a construiu, a praça existe desde 1857, quando foram plantadas as palmeiras imperiais e o calçamento foi realizado. No século XX, um lago foi construído e novas árvores foram plantadas. Um grande tapete de grama, cercado de canteiros e arbustos, sobe em direção à igreja Matriz de Nossa Senhora da Conceição. Da praça, é possível avistar o prédio do Paço Municipal, atual sede da Prefeitura, que já funcionou como Câmara e cadeia. É o principal ponto turístico da cidade e, além de ser frequentada diariamente por muitas crianças, ficou conhecida por ter sido uma das principais locações da minissérie Presença de Anita, da TV Globo.</textarea>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col">
+                                                                <div class="form-group">
+                                                                    <label>Rota</label>
+                                                                    <input class="form-control" type="text">
+                                                                </div>
+                                                            </div>
+                                                        </div>
 
 
-                      <div class="row">
-                      <div class="col">
-                        <div class="form-group">
-                          <label>Foto Principal</label>
-                          <input class="form-control" type="file" name="foto1">
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div class="form-group">
-                          <label>Foto secundária</label>
-                          <input class="form-control" type="file" name="foto2">
-                        </div>
-                      </div>
-                    </div>
+                                                        <div class="row">
+                                                            <div class="col">
+                                                                <div class="form-group">
+                                                                    <label>Foto Principal</label>
+                                                                    <input class="form-control" type="file"
+                                                                           name="foto1">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col">
+                                                                <div class="form-group">
+                                                                    <label>Foto secundária</label>
+                                                                    <input class="form-control" type="file"
+                                                                           name="foto2">
+                                                                </div>
+                                                            </div>
+                                                        </div>
 
 
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col d-flex justify-content-end">
+                                                        <button class="btn btn-primary"
+                                                                style="background-color:red; margin-right: 6px;">
+                                                            Cancelar
+                                                        </button>
+                                                        <button class="btn btn-primary" type="submit">Salvar</button>
+                                                    </div>
+                                                </div>
+                                            </form>
 
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col d-flex justify-content-end">
-                    <button class="btn btn-primary" style="background-color:red; margin-right: 6px;">Cancelar</button>
-                    <button class="btn btn-primary" type="submit">Salvar</button>
-                  </div>
-                </div>
-              </form>
-
-            </div>
-          </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -279,108 +290,113 @@
                             </div>
                         </div>
 
-    <!-- User Form Modal -->
-    <div class="modal fade" role="dialog" tabindex="-1" id="user-form-modal">
-      <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Criar Atrativo</h5>
-            <button type="button" class="close" data-dismiss="modal">
-              <span aria-hidden="true">×</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <div class="py-1">
-              <form class="form" novalidate="">
-                <div class="row">
-                  <div class="col">
-                      <div class="row">
-                      <div class="col">
-                        <div class="form-group">
-                          <label>Nome</label>
-                          <input class="form-control" type="text">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col">
-                        <div class="form-group">
-                          <label>Dia Funcionamento</label>
-                          <input class="form-control" type="text" name="name">
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div class="form-group">
-                          <label>Horário Funcionamento</label>
-                          <input class="form-control" type="text" name="username">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col">
-                        <div class="form-group">
-                          <label>Endereço</label>
-                          <input class="form-control" type="text">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col mb-3">
-                        <div class="form-group">
-                          <label>Descrição</label>
-                          <textarea class="form-control" rows="5"></textarea>
-                        </div>
-                      </div>
-                    </div>
-                   <div class="row">
-                      <div class="col">
-                        <div class="form-group">
-                          <label>Rota</label>
-                          <input class="form-control" type="text">
-                        </div>
-                      </div>
-                    </div>
+                        <!-- User Form Modal -->
+                        <div class="modal fade" role="dialog" tabindex="-1" id="user-form-modal">
+                            <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Criar Atrativo</h5>
+                                        <button type="button" class="close" data-dismiss="modal">
+                                            <span aria-hidden="true">×</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="py-1">
+                                            <form class="form" novalidate="">
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <div class="row">
+                                                            <div class="col">
+                                                                <div class="form-group">
+                                                                    <label>Nome</label>
+                                                                    <input class="form-control" type="text">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col">
+                                                                <div class="form-group">
+                                                                    <label>Dia Funcionamento</label>
+                                                                    <input class="form-control" type="text" name="name">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col">
+                                                                <div class="form-group">
+                                                                    <label>Horário Funcionamento</label>
+                                                                    <input class="form-control" type="text"
+                                                                           name="username">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col">
+                                                                <div class="form-group">
+                                                                    <label>Endereço</label>
+                                                                    <input class="form-control" type="text">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col mb-3">
+                                                                <div class="form-group">
+                                                                    <label>Descrição</label>
+                                                                    <textarea class="form-control" rows="5"></textarea>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col">
+                                                                <div class="form-group">
+                                                                    <label>Rota</label>
+                                                                    <input class="form-control" type="text">
+                                                                </div>
+                                                            </div>
+                                                        </div>
 
 
-                      <div class="row">
-                      <div class="col">
-                        <div class="form-group">
-                          <label>Foto Principal</label>
-                          <input class="form-control" type="file" name="foto1">
+                                                        <div class="row">
+                                                            <div class="col">
+                                                                <div class="form-group">
+                                                                    <label>Foto Principal</label>
+                                                                    <input class="form-control" type="file"
+                                                                           name="foto1">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col">
+                                                                <div class="form-group">
+                                                                    <label>Foto secundária</label>
+                                                                    <input class="form-control" type="file"
+                                                                           name="foto2">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col d-flex justify-content-end">
+                                                        <button class="btn btn-primary"
+                                                                style="background-color:red; margin-right: 6px;">
+                                                            Cancelar
+                                                        </button>
+                                                        <button class="btn btn-primary" type="submit">Salvar</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                      </div>
-                      <div class="col">
-                        <div class="form-group">
-                          <label>Foto secundária</label>
-                          <input class="form-control" type="file" name="foto2">
-                        </div>
-                      </div>
                     </div>
-
-
-
-                  </div>
                 </div>
-                <div class="row">
-                  <div class="col d-flex justify-content-end">
-                    <button class="btn btn-primary" style="background-color:red; margin-right: 6px;">Cancelar</button>
-                    <button class="btn btn-primary" type="submit">Salvar</button>
-                  </div>
-                </div>
-              </form>
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-                    </div>
-                </div>
 
 
-                <footer class="footer text-center">
+                <footer class="footer text-center" style="margin-top: 643px">
                     All Rights Reserved by
-                    <a href="https://www.wrappixel.com">WrapPixel</a>.
+                    <a href="https://www.visitevassouras.com">Sedet-Prefeitura Municipal de Vassouras</a>.
                 </footer>
 
             </div>
